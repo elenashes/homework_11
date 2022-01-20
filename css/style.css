@@ -1,7 +1,9 @@
 /* Сперва общие правила */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
 }
 
 /* Потом селекторы по тегам */
@@ -25,6 +27,8 @@ main {
         }
 
 p {
+   font-weight:300;
+
 
 }
 
@@ -62,6 +66,7 @@ a {
     height: 40px;
     width: 120px;
     border-radius: 5px;
+    margin-right: 16px;
     }
 
 /* Потом специальные правила по страничкам */
@@ -77,6 +82,18 @@ h2 {
    font-weight: 800;
    text-align: left;
    }
+
+h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+.book_title {
+    font-size: 40px;
+    line-height: 100px;
+
+}
 
 
 /* Страничка жанров и тегов */
