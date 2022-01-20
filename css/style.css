@@ -14,12 +14,7 @@ main {
     width: 300px;
     margin: 0px auto;
 }
-.field {
-    width: 300px;
-    height: 40px;
-    margin-bottom: 20px;
-    border-radius: 5px lightgrey;
-    }
+
 
 .send_button {
     background-color: MediumSlateBlue;
@@ -27,7 +22,6 @@ main {
     height: 40px;
     width: 120px;
     border-radius: 5px;
-
         }
 
 p {
@@ -41,9 +35,14 @@ a {
 /* Колонки */
 
 .row {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
 
 }
 .col {
+    flex: auto;
 
 }
 
@@ -51,21 +50,33 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
-
-}
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px lightgrey;
+    }
 
 .button {
-
-}
+    background-color: MediumSlateBlue;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    }
 
 /* Потом специальные правила по страничкам */
 
 /* Login*/
 
 .input-login {
+    }
 
-
-}
+h2 {
+   font-family: Arial;
+   font-size: 30px;
+   font-weight: 800;
+   text-align: left;
+   }
 
 
 /* Страничка жанров и тегов */
