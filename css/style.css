@@ -28,6 +28,9 @@ main {
 
 p {
    font-weight:300;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
 
 
 }
@@ -79,8 +82,7 @@ a {
 h2 {
    font-family: Arial;
    font-size: 30px;
-   font-weight: 800;
-   text-align: left;
+   font-weight: 700;
    }
 
 h3 {
@@ -99,22 +101,49 @@ h3 {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
-}
+    background-color: #E1F5EA;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    }
 
 .genre-second {
-
-}
+    background-color: #CBEDFF;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    }
 
 .genre-third {
-
-}
+    background-color: #EEE5BD;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    }
 
 .genre-fourth {
-
-}
+    background-color: #EBDCF9;
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    }
 
 .tag {
+    color: #554AF0;
+    font-size: 18px;
+
+
 
 }
 
