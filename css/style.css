@@ -14,6 +14,21 @@ main {
     width: 300px;
     margin: 0px auto;
 }
+.field {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px lightgrey;
+    }
+
+.send_button {
+    background-color: MediumSlateBlue;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+
+        }
 
 p {
 
