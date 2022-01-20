@@ -30,6 +30,7 @@ p {
    font-weight:300;
    margin-top: 20px;
    margin-bottom: 20px;
+   font-size: 18px;
 
 
 
@@ -142,10 +143,11 @@ h3 {
 .tag {
     color: #554AF0;
     font-size: 18px;
+    }
 
-
-
-}
+.checkbox-list {
+    letter-spacing: 0,5px;
+    }
 
 /* Страничка популярного */
 
